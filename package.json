@@ -12,7 +12,7 @@
     "build": "mkdir -p lib && tsup src/index.ts -d lib --target=node22 --format=esm --clean --no-splitting --dts",
     "format": "prettier \"**/*.{js,jsx,json,tsx,ts}\" --write",
     "lint": "eslint --cache .",
-    "test": "tsc && pnpm lint && vitest"
+    "test": "tsc && pnpm lint && vitest run"
   },
   "author": {
     "name": "Christoph Nakazawa",
@@ -28,8 +28,8 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@nkzw/eslint-config": "^2.1.0",
     "@types/node": "^22.13.10",
-    "@typescript-eslint/eslint-plugin": "^8.26.1",
-    "@typescript-eslint/parser": "^8.26.1",
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
     "eslint": "^9.22.0",
     "prettier": "^3.5.3",
     "tsup": "^8.4.0",
