@@ -19,7 +19,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "mkdir -p lib && tsdown src/index.ts -d lib --target=node22 --format=esm --clean --dts",
+    "build": "tsdown -d lib --target=node24",
     "format": "prettier --experimental-cli --write .",
     "lint": "eslint --cache .",
     "lint:format": "prettier --experimental-cli --cache --check .",
