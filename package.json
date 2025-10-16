@@ -29,16 +29,16 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
-    "@nkzw/eslint-config": "^3.1.3",
+    "@nkzw/eslint-config": "^3.2.0",
     "@prettier/plugin-oxc": "^0.0.4",
-    "@types/node": "^24.7.0",
-    "@typescript-eslint/eslint-plugin": "^8.45.0",
-    "@typescript-eslint/parser": "^8.45.0",
+    "@types/node": "^24.7.2",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
     "eslint": "^9.37.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "prettier-plugin-packagejson": "^2.5.19",
-    "tsdown": "^0.15.6",
+    "tsdown": "^0.15.7",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4"
   }
