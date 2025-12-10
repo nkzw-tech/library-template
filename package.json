@@ -24,7 +24,7 @@
     "lint": "eslint --cache .",
     "lint:format": "prettier --experimental-cli --cache --check .",
     "test": "npm-run-all --parallel tsc:check lint lint:format vitest:run",
-    "tsc:check": "tsc",
+    "tsc:check": "tsgo",
     "vitest:run": "vitest run"
   },
   "devDependencies": {
@@ -34,6 +34,7 @@
     "@types/node": "^24.10.0",
     "@typescript-eslint/eslint-plugin": "^8.46.3",
     "@typescript-eslint/parser": "^8.46.3",
+    "@typescript/native-preview": "7.0.0-dev.20251209.1",
     "eslint": "^9.39.1",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
