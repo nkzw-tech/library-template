@@ -3,42 +3,42 @@
   "version": "0.0.0",
   "description": "Library.",
   "homepage": "https://github.com/nkzw-tech/library-template",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nkzw-tech/library-template"
-  },
   "license": "MIT",
   "author": {
     "name": "Christoph Nakazawa",
     "email": "christoph.pojer@gmail.com"
   },
-  "type": "module",
-  "main": "./lib/index.mjs",
-  "types": "./lib/index.d.mts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkzw-tech/library-template"
+  },
   "files": [
     "lib"
   ],
+  "type": "module",
+  "main": "./lib/index.mjs",
+  "types": "./lib/index.d.mts",
   "scripts": {
     "build": "tsdown -d lib --target=node24",
-    "format": "prettier --experimental-cli --write .",
-    "lint": "eslint --cache .",
-    "lint:format": "prettier --experimental-cli --cache --check .",
+    "format": "oxfmt --write .",
+    "lint": "oxlint .",
+    "lint:format": "oxfmt --check .",
     "test": "npm-run-all --parallel tsc:check lint lint:format vitest:run",
     "tsc:check": "tsgo",
     "vitest:run": "vitest run"
   },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
-    "@nkzw/eslint-config": "^3.2.1",
-    "@prettier/plugin-oxc": "^0.1.3",
+    "@nkzw/eslint-plugin": "^2.0.0",
+    "@nkzw/oxlint-config": "^1.0.1",
     "@types/node": "^25.0.2",
-    "@typescript-eslint/eslint-plugin": "^8.50.0",
-    "@typescript-eslint/parser": "^8.50.0",
     "@typescript/native-preview": "7.0.0-dev.20251215.1",
-    "eslint": "^9.39.2",
+    "eslint-plugin-no-only-tests": "^3.3.0",
+    "eslint-plugin-perfectionist": "^5.5.0",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-unused-imports": "^4.4.1",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.7.4",
-    "prettier-plugin-packagejson": "^2.5.20",
+    "oxfmt": "^0.32.0",
+    "oxlint": "^1.47.0",
     "tsdown": "^0.18.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.15"
