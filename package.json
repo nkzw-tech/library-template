@@ -30,8 +30,8 @@
   "devDependencies": {
     "@nkzw/eslint-plugin": "^2.0.0",
     "@nkzw/oxlint-config": "^1.0.1",
-    "@types/node": "^25.0.2",
-    "@typescript/native-preview": "7.0.0-dev.20251215.1",
+    "@types/node": "^25.2.3",
+    "@typescript/native-preview": "7.0.0-dev.20260212.1",
     "eslint-plugin-no-only-tests": "^3.3.0",
     "eslint-plugin-perfectionist": "^5.5.0",
     "eslint-plugin-react-hooks": "^7.0.1",
@@ -39,8 +39,8 @@
     "npm-run-all2": "^8.0.4",
     "oxfmt": "^0.32.0",
     "oxlint": "^1.47.0",
-    "tsdown": "^0.18.0",
+    "tsdown": "^0.20.3",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.18"
   }
 }
