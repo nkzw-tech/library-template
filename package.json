@@ -23,15 +23,11 @@
     "prepare": "vp config"
   },
   "devDependencies": {
-    "@nkzw/eslint-plugin": "^2.0.0",
-    "@nkzw/oxlint-config": "^1.2.1",
-    "@types/node": "^25.6.0",
-    "@typescript/native-preview": "7.0.0-dev.20260505.1",
-    "eslint-plugin-no-only-tests": "^3.4.0",
-    "eslint-plugin-perfectionist": "^5.9.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "vite-plus": "latest",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@^0.1.20"
+    "@nkzw/oxlint-config": "^2.0.1",
+    "@types/node": "^26.4.0",
+    "@typescript/native-preview": "7.0.0-dev.20260707.2",
+    "vite-plus": "^0.3.0",
+    "vitest": "^4.1.11"
   },
-  "packageManager": "pnpm@11.0.6"
+  "packageManager": "pnpm@11.24.0"
 }
