@@ -1,2 +1,5 @@
 minimumReleaseAgeExclude:
-  - '@nkzw/oxlint-config@2.0.1'
+  - '@nkzw/*'
+  - '@voidzero-dev/*'
+  - '@void/*'
+  - void

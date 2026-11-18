@@ -23,11 +23,10 @@
     "prepare": "vp config"
   },
   "devDependencies": {
-    "@nkzw/oxlint-config": "^2.0.1",
+    "@nkzw/oxlint-config": "^3.0.0",
     "@types/node": "^26.4.0",
-    "@typescript/native-preview": "7.0.0-dev.20260707.2",
-    "vite-plus": "^0.3.0",
-    "vitest": "^4.1.11"
+    "vite-plus": "^1.7.0",
+    "vitest": "5.1.0"
   },
   "packageManager": "pnpm@11.24.0"
 }
