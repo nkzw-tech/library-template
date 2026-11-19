@@ -24,9 +24,9 @@
   },
   "devDependencies": {
     "@nkzw/oxlint-config": "^3.0.0",
-    "@types/node": "^26.4.0",
+    "@types/node": "^26.6.6",
     "vite-plus": "^1.7.0",
     "vitest": "5.1.0"
   },
-  "packageManager": "pnpm@11.24.0"
+  "packageManager": "pnpm@12.21.0"
 }
